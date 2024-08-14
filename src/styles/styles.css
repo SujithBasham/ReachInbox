@@ -1,0 +1,108 @@
+/* src/styles/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .login-box {
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .google-signin-btn,
+  .create-account-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .create-account-btn {
+    background-color: #007bff;
+  }
+  
+  .onebox-container {
+    padding: 20px;
+  }
+  
+  .dark-mode .onebox-container {
+    background-color: #333;
+    color: white;
+  }
+  
+  .email-list div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .email-list div:hover {
+    background-color: #ddd;
+  }
+  
+  .reply-editor {
+    margin-top: 20px;
+  }
+  
+  .custom-text-editor {
+    margin-bottom: 20px;
+  }
+  
+  .dark-mode-toggle {
+    margin-bottom: 20px;
+  }
+  /* src/styles/styles.css */
+.onebox-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .email-list {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .email-details {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .reply-editor {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .dark-mode .email-list,
+  .dark-mode .email-details,
+  .dark-mode .reply-editor {
+    background-color: #333;
+    color: white;
+  }
+  /* App.css or global styles file */
+
+.dark-mode-toggle {
+  cursor: pointer;
+}
+
+.toggle-icon {
+  width: 24px;
+  height: 24px;
+}

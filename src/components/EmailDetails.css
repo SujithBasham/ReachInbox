@@ -1,0 +1,11 @@
+.email-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.email-body {
+    margin-top: 20px;
+    line-height: 1.6;
+}

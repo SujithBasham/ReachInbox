@@ -1,0 +1,10 @@
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.dark-mode-toggle input {
+    margin: 0 10px;
+}

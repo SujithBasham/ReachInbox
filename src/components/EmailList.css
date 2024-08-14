@@ -1,0 +1,28 @@
+.email-list {
+    width: 300px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-right: 1px solid #333;
+    overflow-y: auto;
+}
+
+.email-item {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-item:hover {
+    background-color: #333;
+}
+
+.email-subject {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.email-from {
+    font-size: 0.8rem;
+    color: #aaa;
+}

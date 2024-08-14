@@ -1,0 +1,75 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.login-box {
+    background-color: #1c1c1c;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.google-signup, .create-account {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-signup {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-signup img {
+    margin-right: 10px;
+}
+
+.create-account {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+}
+
+.signin-text {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.signin-text a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.login-footer {
+    position: absolute;
+    bottom: 20px;
+    color: #555;
+    font-size: 0.75rem;
+    text-align: center;
+    width: 100%;
+}
